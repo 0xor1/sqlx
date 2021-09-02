@@ -22,8 +22,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/0xor1/sqlx/reflectx"
 	_ "github.com/go-sql-driver/mysql"
-	"github.com/jmoiron/sqlx/reflectx"
 	_ "github.com/lib/pq"
 	_ "github.com/mattn/go-sqlite3"
 )
